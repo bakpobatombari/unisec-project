@@ -1,0 +1,10 @@
+#webnav{
+    height:70px;
+}
+body{
+    background-image: url("../images/logo.jpg");
+    background-size: 50%;
+}
+.logo{
+    height:70px;
+}
