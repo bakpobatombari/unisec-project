@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <script src="assets/js/index.js"></script>
+    <div class="container col-md-12">
+        <h1 style="text-align: center;">LOGIN</h1>
+       <div class="input">
+        <label for="Email">EMAIL</label>
+        <input type="text" name="email" id="user" class="col-md-6">
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password" class="col-md-6">
+        <button class="col-md-2 mt-4" onclick="validate()">Login</button>
+        <a href=""><p>forgot password?</p></a>
+        <a href=""><p>Sign Up</p></a>
+    </div>
+    </div>
+    <script>
+        /*function check(e)
+        {
+        alert(e.keyCode);
+        }*/
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                    alert('not allowed');
+                }
+                return false;
+        };
+        </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/homepage.css">
+    <title>HEADLINES</title>
+</head>
+<body>
+    <nav class="navbar container-fluid text-light expand-col-md-12" id="webnav">
+        <img src="assets/images/ICT LOGO (1).jpg" class="logo" alt="Logo">
+        <h3><i>UNISEC HEADLINES</i></h3>
+        <ul class="nav-items" style="display: flex;">
+            <li style="margin-right: 20px; font-size: large;"><a href="" style="font-size: 20px;">About</a></li>
+            <li style="margin-right: 20px; font-size: large;"><a href="home-contact.html" style="font-size: 20px;">Contact</a></li>
+            <li style="margin-right: 50px; font-size: large;"><a href="" style="font-size: 20px;">Clubs</a></li>
+        </ul>
+    </nav>
+    <script>
+        /*function check(e)
+        {
+        alert(e.keyCode);
+        }*/
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+               }
+                return false;
+        };
+        </script>
+</body>
+</html>

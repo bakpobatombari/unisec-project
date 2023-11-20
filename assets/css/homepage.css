@@ -1,0 +1,34 @@
+#webnav{
+    height:  70px;
+    background: linear-gradient(20deg, rgb(199, 199, 211),rgba(22, 85, 22, 0.719));
+}
+i{
+    font-family: serif;
+}
+.logo{
+    height: 60px;
+    border-radius: 0% 12% 40% 40% / 9% 0% 100% 89% ;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+.nav-items{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+.nav-items a{
+    color: white;
+    font-size: 16px;
+    font-family: serif;
+}
+ 
+@media screen and (max-width:620px) {
+    .navbar{
+        display: none !important;
+    }
+}

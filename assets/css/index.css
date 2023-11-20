@@ -1,10 +1,31 @@
+body{
+    animation: body 10s infinite;
+} @keyframes body{
+    0%{
+        background: radial-gradient(circle,rgb(255, 255, 255),darkgreen);
+    }
+    50%{
+        background: radial-gradient(circle,rgb(216, 214, 214),rgb(169, 255, 169));
+    }
+    100%{
+        background: radial-gradient(circle,rgba(100, 30, 30, 0.582),rgb(179, 255, 179));
+    }
+ }
+
 #webnav{
     height:70px;
+    background: linear-gradient(rgba(96, 216, 16, 0.527),darkgreen);
+    color: white !important;
+    border-radius: 5%;
+    border: 2px white solid;
 }
-body{
-    background-image: url("../images/logo.jpg");
-    background-size: 50%;
-}
+
 .logo{
-    height:70px;
+    height:60px;
+    border-radius: 0% 12% 40% 40% / 9% 0% 100% 89% ;
+    border: 1px solid darkgreen;
+}
+.nav-items a{
+    color:white;
+    text-decoration: none;
 }

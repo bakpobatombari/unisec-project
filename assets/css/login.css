@@ -1,0 +1,37 @@
+.container{
+    align-self: center;
+    justify-content: center !important;
+    text-align: justify;
+    margin: 2% auto;
+    background: fixed;
+    background: rgba(255, 255, 255, 0.219);
+    height:590px;
+}
+body{
+    background: linear-gradient(20deg, rgba(0, 255, 255, 0.459), rgba(17, 23, 73, 0.596));
+}
+input{
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+}
+button{
+    height:40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+@media screen and (max-width:620px) {
+    .container{
+        height:500px;
+    }
+    .input{
+        margin-left: 20px !important;
+        top:20px;
+    }
+}
+.input{
+    margin-left: 30%;
+    position: relative;
+    top:100px;
+}

@@ -8,10 +8,28 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
 </head>
 <body>
-    <div class="navbar container-fluid bg-info" id="webnav">
-        <img src="assets/images/logo.jpg" class="logo" alt="">
+    <div class="navbar container-fluid" id="webnav">
+        <img src="assets/images/ICT LOGO (1).jpg" class="logo" alt="">
+        <h1><i style="color:rgb(255, 255, 255); font-family: serif;">ICT CLUB</i></h1>
+        <ul class="nav-items text-light" style="text-decoration: none; list-style: none; display: flex;">
+            <li class="nav-items" style="margin-right: 30px;"><a href="">About</a></li>
+            <li class="nav-items" style="margin-right: 30px;"><a href="" onclick="">Contact</a></li>
+            <li class="nav-items"><a href="login.html">Login</a></li>
+        </ul>
     </div>
+    <script>
+        /*function check(e)
+        {
+        alert(e.keyCode);
+        }*/
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                }
+                return false;
+        };
+        </script>
 </body>
 </html>
