@@ -10,7 +10,7 @@ function validate(){
     alert("Welcome " + username.value)
   }
   else if(username.value === "Student" && password.value === "headlines"){
-    location.replace("./membership");
+    location.replace("./homepage.html");
   }
   else{
     alert("Invalid Username or password")
