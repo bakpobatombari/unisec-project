@@ -7,7 +7,7 @@ function validate(){
   }
   else if(username === "Batombari Bakpo" && password ==="batombari2012"){
     location.replace("./homepage.html");
-    alert("Welcome " + username.value)
+    alert("Welcome " + username)
   }
   else if(username === "student" && password === "headlines"){
     alert("Login Successful")
