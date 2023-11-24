@@ -5,14 +5,15 @@ function validate(){
   if(username === "" || password === ""){
     alert("Please Fill in the Fields");
   }
-  else if(username === "Batombari Bakpo" && password ==="batombari2012"){
+  else if(username === "Batombari Bakpo" && password ==="batombari201"|| ){
     location.replace("./homepage.html");
     alert("Welcome " + username.value)
   }
-  else if(username === "Student" && password === "headlines"){
+  else if(username === "student" && password === "headlines"){
+    alert("Login Successful")
     location.replace("./homepage.html");
   }
   else{
-    alert("Invalid Username or password")
+    alert("Invalid Username or password");
   }
 }
