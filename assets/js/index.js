@@ -5,7 +5,7 @@ function validate(){
   if(username === "" || password === ""){
     alert("Please Fill in the Fields");
   }
-  else if(username === "Batombari Bakpo" && password ==="batombari201"|| ){
+  else if(username === "Batombari Bakpo" && password ==="batombari2012"){
     location.replace("./homepage.html");
     alert("Welcome " + username.value)
   }
