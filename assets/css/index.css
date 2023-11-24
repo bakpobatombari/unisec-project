@@ -1,28 +1,17 @@
 body{
-    animation: body 10s infinite;
-} @keyframes body{
-    0%{
-        background: radial-gradient(circle,rgb(255, 255, 255),darkgreen);
-    }
-    50%{
-        background: radial-gradient(circle,rgb(216, 214, 214),rgb(169, 255, 169));
-    }
-    100%{
-        background: radial-gradient(circle,rgba(30, 100, 67, 0.466),rgb(179, 255, 179));
-    }
- }
-
+    animation: body 8s infinite;
+    background: linear-gradient(25deg,white,darkgreen)
+} 
 #webnav{
-    height:70px;
-    background: linear-gradient(rgba(96, 216, 16, 0.527),darkgreen);
+    height:70px;background: rgb(196,241,216);
+    background: linear-gradient(261deg, rgb(131, 167, 147) 59%, rgba(9,121,78,0.7847514005602241) 60%);
     color: white !important;
-    border-radius: 5%;
-    border: 2px white solid;
+    border-radius: 2%;
 }
 
 .logo{
     height:60px;
-    border-radius: 0% 12% 40% 40% / 9% 0% 100% 89% ;
+    border-radius: 50%;
     border: 1px solid darkgreen;
 }
 .nav-items a{

@@ -1,15 +1,15 @@
 function validate(){
-  let username = document.getElementById("user");
-  let password =document.getElementById("password");
+  let username = document.getElementById("user").value;
+  let password =document.getElementById("password").value;
 
-  if(username.value === "" || password.value === ""){
+  if(username === "" || password === ""){
     alert("Please Fill in the Fields");
   }
-  else if(username.value === "Batombari Bakpo" && password.value ==="batombari@2012"){
+  else if(username === "Batombari Bakpo" && password ==="batombari2012"){
     location.replace("./homepage.html");
     alert("Welcome " + username.value)
   }
-  else if(username.value === "Student" && password.value === "headlines"){
+  else if(username === "Student" && password === "headlines"){
     location.replace("./homepage.html");
   }
   else{
